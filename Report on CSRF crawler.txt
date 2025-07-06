@@ -1,0 +1,16 @@
+Report: CSRF Crawler
+
+Objective:
+To detect Cross-Site Request Forgery (CSRF) vulnerabilities by scanning and analyzing web forms.
+
+Script Used:
+- csrf_crawler.py: Python script that parses and identifies potentially CSRF-vulnerable forms.
+- csrf_poc.html: PoC attack page to demonstrate the exploit.
+
+Test Process:
+1. The crawler script was executed on [Target Website].
+2. It detected [number] forms and analyzed [relevant security headers/tokens].
+3. PoC was generated and tested successfully against [form/page].
+
+Disclaimer:
+This tool is for educational and ethical testing purposes only.
